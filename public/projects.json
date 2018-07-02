@@ -1,0 +1,20 @@
+[
+    {
+        "title"  : "Giftology",
+        "details": "A login-based gift management application that enables users to add friends, family, and co-workers to their account and create individual gift lists for them.",
+        "image"  : "assets/images/projects/giftology.jpeg",
+        "url"    : "https://agile-everglades-66878.herokuapp.com/"
+    },
+    {
+        "title"  : "Newscraper",
+        "details": "Stay up to date with the latest music news scraped from Relix.",
+        "image"  : "assets/images/projects/newscraper.jpeg",
+        "url"    : "https://mongo-scraper-meg.herokuapp.com/"
+    },
+    {
+        "title"  : "Cravin'",
+        "details": "Find what you're cravin' and get directions to the best or fastest",
+        "image"  :"assets/images/projects/cravin.png",
+        "url"    : "https://megrumble.github.io/Cravin/"
+    }
+]

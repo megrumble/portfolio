@@ -1,0 +1,92 @@
+<!-- About Me-->
+<div class="row row-base transitionHFX font1" id="about">
+    <div class="col-xs-8 offset-xs-2 col-lg-2 offset-lg-1 mb-4">
+        <img class="img-fluid mx-auto d-block profile-img" src="assets/images/megrumble.jpg" alt="profile-image">
+    </div>
+    <div class="col-xs-12 col-lg-7 offset-lg-1 mb-4 p-3 ">
+        <div class="borderbtm">
+            
+            <h1>Margaret Rumble</h1>
+            <h4><a href="tel:7048068822">(704) 806-8822</a> · <a href="mailto:megrumble@gmail.com">megrumble@gmail.com</a></h4>
+            <p> Hello and thank you for visiting my portfolio website! My name is Margaret Rumble and I am a full stack developer currently located in Charlotte, North Carolina.
+                I received my certification in Full Stack Web Development from the University of North Carolina at Charlotte on February 24th, 2018.
+            </p>
+            <p> Software development has long been an intriguing practice to me, evolving into a passion of mine that I am entirely committed to expanding. 
+                On a daily basis, I code solo and with colleagues alike. 
+                I enjoy creating Node.js applications with HTML, CSS, and JavaScript that implement SQL or No-SQL databases, following the MVC design pattern. 
+                I also love exploring newer technologies such as react.js and redux and am currently working on a project which implements both.
+            </p>
+            
+        </div>
+        <div class="m-2 d-inline-block">
+            <a href="https://github.com/megrumble" target="_blank"><i class="fab fa-github fa-4x greenHFX"></i></a>
+        </div>
+        <div class="m-2 d-inline-block">
+            <a href="https://www.linkedin.com/in/megrumble/" target="_blank"><i class="fab fa-linkedin fa-4x greenHFX"></i></a>
+        </div>
+    </div>
+</div>
+
+
+<!-- My Skills -->
+<div class="row row-base transitionHFX font1" id="skills">
+    <div class="container-fluid text-center ">
+        <h1 class="mb-4 borderbtm">SKILLS</h1>
+        <!-- Skills here-->
+        <ul class="list-inline">
+            {{#each skills}}
+                <li class="list-inline-item my-4">
+                    <a href={{link}} target="_blank">
+                        <i class="devicon {{iconClass}} greenHFX" aria-label={{name}}></i>
+                    </a>
+                </li>
+            {{/each}}
+        </ul>
+        <!-- Additional skills-->
+        <h4 class="mt-4">Related Proficiencies</h4>
+        <ul class="list-inline">
+            <li class="list-inline-item greenHFX"><a href="https://firebase.google.com/" target="_blank">Firebase</a></li>
+            <li class="list-inline-item greenHFX"><a href="https://www.ecma-international.org/ecma-262/7.0/" target="_blank">ES2016</a></li>
+        </ul>
+    </div> 
+</div>
+
+
+<!-- Projects -->
+<div class="row row-base transitionHFX font1" id="projects">
+    <div class="container-fluid text-center ">
+        <h1 class="mb-4 borderbtm">PROJECTS</h1>
+        <!-- Apps here-->
+        <div class="projects-div">
+            {{#each projects}}
+                <div class="project d-inline-block">
+                    <a href={{url}} target="_blank">
+                        <img class="img-fluid mb-1 project-img rounded" src={{image}} alt={{title}} width="480" height="270">
+                        <div class="overlay">
+                            <div class="project-text">
+                                <h3>{{title}}</h3>
+                                <p>{{details}}</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            {{/each}}
+        </div>
+    </div>
+</div>
+
+<!-- Contact Me -->
+<div class="row row-base transitionHFX font1" id="contact">
+    <div class="container-fluid text-center ">
+        <h1 class="mb-4 borderbtm">Contact</h1>
+        <p>I look forward to connecting with you!</p>
+        <div class="mt-4">
+            <ul class="list-inline">
+                <li class="list-inline-item greenHFX"><a href="tel:7048068822">(704) 806-8822</a></li>
+                <li class="list-inline-item greenHFX"><a href="mailto:megrumble@gmail.com">megrumble@gmail.com</a></li>
+                <li class="list-inline-item greenHFX"><a href="https://github.com/megrumble" target="_blank">Github</a></li>
+                <li class="list-inline-item greenHFX"><a href="https://www.linkedin.com/in/megrumble/" target="_blank">LinkedIn</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
