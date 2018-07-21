@@ -8,7 +8,7 @@
     {
         "title"  : "Newscraper",
         "details": "Stay up to date with the latest music news scraped from Relix.",
-        "image"  : "assets/images/projects/newscraper.jpeg",
+        "image"  : "assets/images/projects/music.png",
         "url"    : "https://mongo-scraper-meg.herokuapp.com/"
     },
     {

@@ -43,7 +43,7 @@ a       { text-decoration: none !important; color: inherit; }
     right: 0;
     opacity: 0;
     transition: .5s ease;
-    background-color: #2FD7FA;
+    background-color: rgb(117, 67, 117);
     border-radius: 3.5px;
 }
 
