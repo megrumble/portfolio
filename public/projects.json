@@ -6,7 +6,7 @@
         "url"    : "https://agile-everglades-66878.herokuapp.com/"
     },
     {
-        "title"  : "Newscraper",
+        "title"  : "Music Scraper",
         "details": "Stay up to date with the latest music news scraped from Relix.",
         "image"  : "assets/images/projects/music.png",
         "url"    : "https://mongo-scraper-meg.herokuapp.com/"
