@@ -53,5 +53,21 @@
         "name"  : "Sass",
         "link"  : "https://sass-lang.com/",
         "iconClass": "devicon-sass-original" 
-    } 
+    }, 
+    {
+        "name"  : "Heroku",
+        "link"  : "https://www.heroku.com/",
+        "iconClass": "devicon-heroku-original-wordmark" 
+    }, 
+    {
+        "name"  : "Git",
+        "link"  : "https://git-scm.com/",
+        "iconClass": "devicon-git-plain-wordmark" 
+    },
+    {
+        "name"  : "Mocha",
+        "link"  : "https://mochajs.org/",
+        "iconClass": "devicon-mocha-plain" 
+    }
+
 ]
