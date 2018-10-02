@@ -68,6 +68,11 @@
         "name"  : "Mocha",
         "link"  : "https://mochajs.org/",
         "iconClass": "devicon-mocha-plain" 
+    },
+    {
+        "name"  : "Docker",
+        "link"  : "https://www.docker.com/",
+        "iconClass": "devicon-docker-plain" 
     }
 
 ]
