@@ -72,7 +72,7 @@
     {
         "name"  : "Docker",
         "link"  : "https://www.docker.com/",
-        "iconClass": "devicon-docker-plain" 
+        "iconClass": "devicon-docker-plain-wordmark" 
     }
 
 ]
