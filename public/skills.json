@@ -74,5 +74,10 @@
         "link"  : "https://www.docker.com/",
         "iconClass": "devicon-docker-plain-wordmark" 
     }
+    {
+        "name"  : "PHP",
+        "link"  : "https://www.php.net/",
+        "iconClass": "devicon-php-plain" 
+    }
 
 ]
