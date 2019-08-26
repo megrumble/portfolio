@@ -78,6 +78,16 @@
         "name"  : "PHP",
         "link"  : "https://www.php.net/",
         "iconClass": "devicon-php-plain" 
+    },
+    {
+        "name"  : "Java",
+        "link"  : "https://www.java.com",
+        "iconClass": "devicon-java-plain" 
+    },
+    {
+        "name"  : "Tomcat",
+        "link"  : "http://tomcat.apache.org/",
+        "iconClass": "devicon-tomcat-line" 
     }
 
 ]
